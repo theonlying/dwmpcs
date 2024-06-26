@@ -1,0 +1,154 @@
+.mainAbout
+{
+    width: 100%;
+    height: 300vh;
+    /* background-color: purple; */
+}
+
+.aboutUs
+{
+    width: 100%;
+    height: 80vh;
+    background-color: #0276ff;
+    
+}
+
+.welcome
+{
+    width: 100%;
+    height: 100vh;
+    /* background-color: orange; */
+    display: flex;
+    justify-content: space-around;
+}
+
+.welcomeImage
+{
+    width: 45%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: red; */
+}
+
+.welcomeImage img
+{
+    box-shadow: -4px 4px 13px 0px rgba(125,118,118,0.61);
+    -webkit-box-shadow: -4px 4px 13px 0px rgba(125,118,118,0.61);
+    -moz-box-shadow: -4px 4px 13px 0px rgba(125,118,118,0.61);
+}
+
+.welcomeText
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* background-color: blue; */
+    width: 45%;
+    height: 100%;
+    color: #5c5c5c;
+}
+
+.welcomeText h1
+{
+    font-size: 30px;
+    padding-bottom: 1rem;
+    color: #323232;
+}
+
+.welcomeText h2
+{
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.welcomeText span
+{
+    font-size: 14px;
+    padding: 2.5rem 0rem;
+}
+
+.welcomeText p
+{
+    line-height: 24px;
+    font-size: 14px;
+}
+.welcomeText button
+{
+    width: 170px;
+    height: 50px;
+    outline: none;
+    border: none;
+    background-color: greenyellow;
+    margin: 1.5rem 0rem;
+    border-radius: 3px;
+    color: white;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.statements
+{
+    width: 100%;
+    height: 70vh;
+    background-color: #F7F7F7;
+    display: flex;
+    justify-content: space-around;
+    /* margin-bottom: 5rem; */
+}
+
+#vission, #mission, #value
+{
+    width: 25%;
+    /* background-color: red; */
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center ;
+    text-align: center;
+}
+
+#vission span, #mission span, #value span
+{
+    font-size: 24px;
+}
+
+#vission p, #mission p, #value p
+{
+    padding-top: 1rem;
+    line-height: 25px;
+    font-size: 14px;
+}
+
+#emergency
+{
+    width: 100%;
+    height: 60vh;
+    background-color: pink;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-image: linear-gradient(0deg, rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(black.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#emergency span
+{
+    font-size: 39px;
+    width: 700px;
+    /* background-color: green; */
+    color: white;
+}
+
+#emergency button
+{
+    border: none;
+    border-radius: 5px;
+    width: 150px;
+    height: 50px;
+    background-color: #33D4D6;
+    cursor: pointer;
+}

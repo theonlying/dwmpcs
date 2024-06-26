@@ -1,0 +1,100 @@
+.mainContact
+{
+    width: 100%;
+    height: 300vh;
+}
+
+.contact
+{
+    width: 100%;
+    height: 80vh;
+    background-color: #0276ff;
+}
+
+#map1, #map2
+{
+    /* background-color: #0276ff; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 5rem auto;
+    width: 80%;
+    height: 80vh;
+}
+
+#map1 iframe, #map2 iframe
+{
+   width: 100%;
+   height: 100%;
+   border-radius: 5px;
+}
+
+.address
+{
+    /* margin-top: 15rem; */
+    width: 100%;
+    background-color: #F7F7F7;
+    height: 90vh;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+.contactInfo
+{
+    width: 20%;
+    /* background-color: orange; */
+    height: 100%;   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0rem 5rem;
+}
+
+.contactInfo p
+{
+    /* background-color: chartreuse; */
+    width: 300px;
+    padding: 0.5rem 0rem;
+    font-size: 15px;
+}
+
+.contactInfo div
+{
+    display: flex;
+    /* background-color: pink; */
+    align-items: center;
+}
+.officeTitle
+{   margin-left: 3rem;
+    font-size: 26px;
+}
+
+.officeIcons
+{
+    font-size: 20px;
+    margin-right: 1rem;
+    color: #10c045;
+}
+
+#unical, #springRoad
+{
+    display: flex;
+    align-items: start;
+    
+    /* background-color: purple; */
+}
+
+#unical, #springRoad
+{
+    display: flex;
+    align-items: start;
+    margin-top: 1rem;
+    /* background-color: purple; */
+}
+
+#unical span, #springRoad span
+{
+    padding-top: 0.4rem;
+}

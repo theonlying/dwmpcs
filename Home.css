@@ -1,0 +1,435 @@
+.main_home
+{
+    width: 100%;
+    height: 105vh;
+    /* background-color: antiquewhite; */
+    background-image: url(../Images/background\ 1.png);
+}
+
+#trusted
+{
+    font-size: 25px;
+    color: #f0673f;
+}
+
+#instant
+{
+    font-weight: bold;
+    font-size: 43px;
+    width: 850px;
+    margin-top: 1.0rem;
+    color: #4e4e50;
+    /* background-color: green; */
+}
+
+#overlay
+{
+    width: 100%;
+    height: 105vh;
+    background-color:rgba(97,108,161,0.5);
+    position: absolute;
+    z-index: 10;
+}
+
+.container
+{
+    width:100%;
+    height: 105vh;
+    /* background-color: red; */
+    position: relative;
+    z-index: 50;
+}
+
+.loan
+{
+    width:50%;
+    /* background-color: blue; */
+    margin: 4rem 0rem 0rem 7rem;
+    
+}
+
+.loan button
+{
+    margin: 3.5rem 0rem;
+    height: 3rem;
+    width: 10rem;
+    border-radius: 15px;
+    outline: none;
+    border: none;
+    background-color: #f0673f;
+    color: #4e4e50;
+    cursor: pointer;
+}
+
+.loan span
+{
+    color: #f0673f;
+}
+
+.loan_span2
+{
+    color: #ffc92a;
+}
+
+.dewisdom
+{
+    width: 100%;
+    /* background-color: whitesmoke; */
+    height: 140vh;
+    margin-top: 5rem;
+}
+
+.choose
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    /* background-color: pink; */
+}
+
+#choose_p1
+{
+    font-size: 38px;
+    font-weight: bold;
+    margin-bottom: 0rem;
+}
+
+#choose_p2
+{
+    font-size: 17px;
+    
+}
+
+.services
+{
+    /* background-color: rebeccapurple; */
+    width: 100%;
+    height: 100vh;
+}
+
+.boxes
+{
+    width: 100%;
+    height: 45vh;
+    /* background-color: #4e4e50; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3rem;
+}
+
+.boxes section
+{   background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 5px 18px 0px rgba(77,71,71,0.29);
+    -webkit-box-shadow: 0px 5px 18px 0px rgba(77,71,71,0.29);
+    -moz-box-shadow: 0px 5px 18px 0px rgba(77,71,71,0.29);
+    width: 350px;
+    height: 210px;
+    margin: 0rem 2rem;
+    text-align: center;
+   
+}
+
+.icon
+{
+    width: 70px;
+    height: 70px;
+    background-color:#ffc92a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    margin: auto;
+    margin-top: -2rem;
+}
+
+.dwmpcs
+{
+    height: 45vh;
+    width: 100%;
+    background-color: #e4e4e4;
+    background-image: linear-gradient(0deg,rgba(228,228,228,0.9), rgba(228,228,228,0.9)),url(loan.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#dwmpcs_one
+{
+    font-size: 40px;    
+    font-weight: bold;
+}
+#dwmpcs_one span
+{
+    font-size: 40px;
+    color: #ffc92a;
+}
+
+#dwmpcs_two
+{
+    font-size: 18px;
+}
+
+.dwmpcs button
+{
+     width: 260px;
+     height: 60px;
+     background-color: #22242b;
+     outline: none;
+     border: none;
+     border-radius: 25px;
+     margin-top: 2.5rem;
+     color: white;
+     cursor: pointer;
+}
+
+.personal_loan
+{
+    width: 100%;
+    height: 120vh;
+    background-color: #22242b;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.personal_loan span
+{
+    font-size: 36px;
+    
+}
+
+.paragraph
+{
+    width: 100%;
+    display: flex;
+    padding-left: 6.5rem;
+    line-height: 28px;
+    margin-top: 4rem;
+    font-size: 15px;
+
+}
+
+.paragraph p
+{
+    padding-right: 1rem;
+    width: 550px;
+    color: #74757b;
+}
+
+.options
+{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5rem;
+}
+
+.options ul
+{
+    font-size: 20px;
+    list-style: none;
+}
+
+.options li
+{
+    
+    padding-top: 2.5rem;
+}
+
+.items
+{
+    /* width: 100%; */
+    /* height: 100%; */
+    align-items: center;
+    /* background-color: gray; */
+    display: flex;
+}
+
+.items section
+{
+    font-weight: 900;
+    font-size: 25px;
+    width: 38px;
+    background-color: #F43F00;
+    height: 38px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+
+
+.team
+{
+    margin-top: 10rem;
+    width: 100%;
+    height: 110vh;
+    /* background-color: #1f1f2c; */
+    text-align: center;
+}
+
+.team h1
+{
+    /* background-color: violet; */
+    width: 600px;
+    margin: auto;
+}
+
+.members
+{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: red; */
+}
+
+.members div
+{
+    width: 300px;
+    height: 350px;
+    background-color: azure;
+    margin: 0rem 2.5rem;
+}
+
+.members div img
+{
+  
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.help
+{
+    width: 100%;
+    height: 85vh;
+    /* background-color: indianred; */
+    display: flex;
+    justify-content: space-around;
+}
+
+.help_image
+{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    width: 45%;
+    height: 100%;
+    /* background-color: magenta; */
+}
+
+.help_image img
+{
+    width: 109%;
+    /* height: 100%; */
+    /* object-fit: contain; */
+    object-position: top;
+    /* background-color: magenta; */
+    margin-left: 3rem;
+}
+
+.help_text
+{
+    width: 55%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* background-color: maroon; */
+
+}
+
+.help_text h1
+{
+    font-size: 36px;
+    padding-bottom: 0.5rem;
+}
+
+.help_text h2
+{
+    font-size: 31px;
+    color: #F43F00;
+    padding-bottom: 0.5rem;
+
+}
+
+.help_text span
+{
+    color: #74757B;
+    font-size: 20px;
+    margin: 1rem 0rem;
+}
+
+.help_text p
+{
+    color: #74757B;
+    line-height: 25px;
+    padding: 2rem 0rem;
+    width: 650px;
+    /* background-color: gold; */
+}
+
+
+.resources ul
+{
+    margin: 1rem 0rem;
+    list-style: none;
+    font-size: 14px;
+    color: #e4e4e4;
+    
+}
+
+.resources a
+{
+   
+    color: #e4e4e4;
+}
+
+.resources span
+{
+   
+    color: #fff;
+    font-size: 20px; 
+}
+
+.resources p
+{
+   
+    color: #e4e4e4;
+    font-size: 20px; 
+}
+
+
+.socialMedia
+{
+    display: flex;
+    
+}
+
+.socialMedia section
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    background-color: rgba(255, 255, 255, 0.29);
+    margin: 1rem 0.5rem;
+    cursor: pointer;
+}
+

@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+.main_register
+{
+    width: 100%;
+}
+
+.apply
+{
+    width: 100%;
+    height: 80vh;
+    background-color: #0276ff;
+}
+
+.text
+{
+    width: 500px;
+    /* background-color: pink; */
+    height: 190px;
+    margin-top: 7rem;
+    margin-left: 7rem;
+}
+
+.text h1
+{
+    color: white;
+    font-size: 55px;
+}
+
+.text p
+{
+    font-family: "Open Sans", sans-serif;
+    color: white;
+    font-size: 20px;
+    padding: 1.5rem 0rem;
+}
+
+.registerForm
+{
+    width: 100%;
+    height: 250vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.formSections
+{
+    width: 100%;
+    background-color: tan;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.formSections label
+{
+    margin: 0rem 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.formSections input
+{
+    outline-style: none;
+    border: none;
+    width: 330px;
+    height: 60px;
+    border-radius: 5px;
+    padding: 0rem 0.5rem;
+    margin-top: 0.5rem;
+    font-size: 16px;
+}
+
+.cooperateLoan
+{
+    width: 100%;
+    height: 40px;
+    background-color: tan;
+}
+
+#alreadyQuestion
+{
+    margin-left: 20.3rem;
+    width: 500px;
+    height: 30px;
+}
+
+#alreadyQuestion input
+{
+    width: 16px;
+    height: 16px;
+    margin-left: 0.3rem;
+    font-size: 16px;
+}
+
+.alreadyAnswer, .alreadyAnswer input
+{
+   
+   margin-left: 1rem;
+}
+
+.alreadyOnLoan
+{
+    width: 100%;
+    background-color: tan;
+    height: 200px;
+    display: flex;
+    /* display: none; */
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.alreadyOnLoan label
+{
+    margin: 0.5rem 0rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.alreadyOnLoan input
+{
+    outline-style: none;
+    border: none;
+    width: 700px;
+    height: 60px;
+    border-radius: 5px;
+    padding: 0rem 0.5rem;
+    margin-top: 0.5rem;
+    font-size: 16px;
+}
+
+#ippis, #staffId
+{
+    width: 100%;
+    background-color: tan;
+    height: 100px;
+    display: flex;
+    /* display: none; */
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#ippis input, #staffId input
+{
+    outline-style: none;
+    border: none;
+    width: 700px;
+    height: 60px;
+    border-radius: 5px;
+    padding: 0rem 0.5rem;
+    margin-top: 0.5rem;
+    font-size: 16px;
+}
+
+#ippis label, #staffId input
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.registerButton
+{
+    width: 40%;
+    height: 100px;
+    /* background-color: purple; */
+    margin-left: -10rem;
+    margin-top: 3rem;
+}
+
+.registerButton button
+{
+    width: 200px;
+    height: 70px;
+    background-color: #e74b0d;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+#passport
+{
+    width: 190px;
+    height: 200px;
+    background-color: teal;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 3px;
+}
+
+#file
+{
+    display: none;
+}
+
+.salaryImage
+{
+    display: flex;
+    width: 100%;
+    height:35vh;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.staffSalary
+{
+    /* background-color: green; */
+    height: 80%;
+    width: 30%;
+}
+
+.staffSalary label
+{
+    margin: 0rem 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.staffSalary input
+{
+    outline-style: none;
+    border: none;
+    width: 330px;
+    height: 60px;
+    border-radius: 5px;
+    padding: 0rem 0.5rem;
+    margin: 0.5rem 0rem;
+    font-size: 16px;
+}
+
+.staffStatus
+{
+    width: 11%;
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    /* background-color: lime; */
+}
+
+.staffStatus input
+{
+    width: 16px;
+    height: 16px;
+    margin-left: 0.3rem;
+    margin-bottom: 0.5rem;
+    margin-top: 0.5rem;
+    font-size: 16px;
+}
